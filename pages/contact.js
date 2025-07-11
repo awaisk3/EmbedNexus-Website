@@ -1,19 +1,47 @@
-import Navbar from '../components/Navbar';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
+
+import { Mail, Phone } from "lucide-react"; // Lucide icons
 
 export default function Contact() {
   return (
     <>
       <Navbar />
-      <main className="max-w-4xl mx-auto py-12 px-4">
-        <h1 className="text-3xl font-bold text-red-500 mb-6">Contact Us</h1>
-        <p className="text-gray-800 mb-4">
-          We would love to hear from you. Whether you are a hotel owner looking for transparency or a tech company needing embedded expertise, we are here to help.
-        </p>
-        <div className="space-y-4 text-gray-700">
-          <p>📧 Email: <a href="mailto:embednexus@gmail.com" className="text-red-500 underline">embednexus@gmail.com</a></p>
-          <p>📱 WhatsApp: <a href="https://wa.me/923366013018" className="text-red-500 underline" target="_blank">+92 336 6013018</a></p>
+      <section className="bg-white py-20 px-6 md:px-12">
+        <div className="max-w-3xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+            Contact Us
+          </h2>
+          <p className="text-lg text-gray-600 mb-10">
+            Whether you're a hotel owner looking for transparency or a business needing smart embedded solutions — we’d love to hear from you.
+          </p>
         </div>
-      </main>
+
+        <div className="max-w-xl mx-auto space-y-6 text-center">
+          <div className="flex items-center justify-center gap-4 bg-gray-50 p-4 rounded-lg shadow">
+            <Mail className="text-indigo-600 w-6 h-6" />
+            <a
+              href="mailto:embednexus@gmail.com"
+              className="text-lg text-gray-800 hover:text-indigo-600 transition"
+            >
+              embednexus@gmail.com
+            </a>
+          </div>
+
+          <div className="flex items-center justify-center gap-4 bg-gray-50 p-4 rounded-lg shadow">
+            <Phone className="text-indigo-600 w-6 h-6" />
+            <a
+              href="https://wa.me/923366013018"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-lg text-gray-800 hover:text-indigo-600 transition"
+            >
+              +92 336 6013018 (WhatsApp)
+            </a>
+          </div>
+        </div>
+      </section>
+      <Footer />
     </>
   );
 }

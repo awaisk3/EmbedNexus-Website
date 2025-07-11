@@ -1,24 +1,37 @@
-import Navbar from '../components/Navbar';
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/footer";
 
 export default function About() {
   return (
     <>
       <Navbar />
-      <main className="max-w-4xl mx-auto py-12 px-6">
-        <h1 className="text-3xl font-bold text-indigo-600 mb-6">About Us</h1>
-        <p className="text-gray-700 mb-4">
-          <strong>EmbedNexus</strong> is a modern embedded technology startup offering smart, secure, and scalable IoT and AI-powered solutions.
-        </p>
-        <p className="text-gray-700 mb-4">
-          Our mission is to bring <span className="text-indigo-600 font-semibold">transparency and automation</span> to industries like hospitality, making operations efficient and fraud-free.
-        </p>
-        <p className="text-gray-700 mb-4">
-          We specialize in Embedded Systems, PCB Design, Hardware Prototyping, Internet of Things, and Edge AI. Our solutions enable hotel owners to gain control and real-time visibility into their assets and guest flow.
-        </p>
-        <p className="text-gray-700">
-          Founded by <strong>Awais Khan</strong>, EmbedNexus is committed to combining deep tech with real-world needs.
-        </p>
-      </main>
+      <section className="bg-white py-20 px-6 md:px-12">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-6">
+            Who We Are
+          </h2>
+          <p className="text-lg text-gray-600 leading-relaxed mb-10">
+            EmbedNexus is an innovative technology startup delivering advanced solutions in Embedded Systems, IoT, Artificial Intelligence, and Hardware Design. We specialize in bringing intelligence and automation to the edge — empowering businesses with smart, scalable, and secure systems.
+          </p>
+        </div>
+
+        <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 mt-12">
+          <div className="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 className="text-2xl font-semibold text-indigo-600 mb-3">Transparent Hotel Systems</h3>
+            <p className="text-gray-700">
+              We help hotel owners eliminate revenue loss and fraud by integrating real-time human detection and intelligent access control — improving management transparency and customer trust.
+            </p>
+          </div>
+
+          <div className="p-6 bg-gray-50 rounded-xl shadow">
+            <h3 className="text-2xl font-semibold text-indigo-600 mb-3">Advanced Embedded Solutions</h3>
+            <p className="text-gray-700">
+              From PCB design to complete IoT and AI systems, our engineers deliver reliable, high-performance hardware tailored for modern industries and edge computing.
+            </p>
+          </div>
+        </div>
+      </section>
+    <Footer />
     </>
   );
 }

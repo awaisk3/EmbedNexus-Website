@@ -1,21 +1,25 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/Navbaravbar";
+import Footer from "@/components/footer";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="min-h-screen bg-[#f6f9fc] flex flex-col items-center justify-center px-4 text-center">
-        <h1 className="text-4xl md:text-5xl font-bold text-indigo-600 mb-4">
-          Welcome to EmbedNexus
+      <main className="min-h-screen flex flex-col items-center justify-center px-6 bg-white">
+        <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 text-center leading-tight mb-4">
+          Powering Intelligent IoT & Embedded Solutions
         </h1>
-        <p className="text-lg text-gray-600 max-w-xl mb-6">
-          We bring transparency, intelligence, and innovation to hotel systems and embedded IoT solutions.
+        <p className="text-lg md:text-xl text-gray-600 max-w-2xl text-center mb-6">
+          From hotel transparency to smart hardware and AI systems — we bring cutting-edge tech to your doorstep.
         </p>
-        <a href="/about">
-          <button className="bg-indigo-600 text-white px-6 py-3 rounded-md text-sm hover:bg-indigo-700 transition">
-            Learn More
+        <a href="/services">
+          <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition">
+            Explore Services
           </button>
         </a>
+        
+        <Footer />
+       
       </main>
     </>
   );
