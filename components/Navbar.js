@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="bg-gray-900 text-white px-6 py-4 shadow-md">
       <div className="max-w-6xl mx-auto flex justify-between items-center">
 <div className="flex items-center space-x-2">
-  <img src="/EN-logo.png" alt="EmbedNexus Logo" className="h-8 w-8 rounded-full" />
+  <img src="/EN-Logo.png" alt="EmbedNexus Logo" className="h-8 w-8 rounded-full" />
   <span className="text-xl font-bold text-red-400">EmbedNexus</span>
 </div>
 
