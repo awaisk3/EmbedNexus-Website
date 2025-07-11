@@ -10,7 +10,7 @@ export default function Home() {
         </h1>
 
         <img
-          src="/EN-Header.PNG"  // replace with your file name if different
+          src="/EN-Header.png"  // replace with your file name if different
           alt="EmbedNexus Header"
           className="w-full max-w-4xl rounded-xl shadow-md"
         />
