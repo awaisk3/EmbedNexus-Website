@@ -13,7 +13,7 @@ export default function Contact() {
             Contact Us
           </h2>
           <p className="text-lg text-gray-600 mb-10">
-            Whether you're a hotel owner looking for transparency or a business needing smart embedded solutions — we’d love to hear from you.
+            Whether you are a hotel owner looking for transparency or a business needing smart embedded solutions. We would love to hear from you.
           </p>
         </div>
 

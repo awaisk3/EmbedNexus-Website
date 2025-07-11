@@ -19,7 +19,7 @@ export default function Testimonials() {
           {/* Testimonial 1 */}
           <div className="bg-gray-50 p-6 rounded-xl shadow-md">
             <p className="text-gray-700 italic mb-4">
-              "EmbedNexus revolutionized our hotel operations. The AI-powered system detected unauthorized activity, saving us thousands in revenue leakage."
+              EmbedNexus revolutionized our hotel operations. The AI-powered system detected unauthorized activity, saving us thousands in revenue leakage.
             </p>
             <h4 className="text-sm font-semibold text-indigo-600">— Faisal A., Hotel Owner</h4>
           </div>
@@ -27,7 +27,7 @@ export default function Testimonials() {
           {/* Testimonial 2 */}
           <div className="bg-gray-50 p-6 rounded-xl shadow-md">
             <p className="text-gray-700 italic mb-4">
-              "Their embedded solutions for our IoT devices were incredibly efficient and scalable. We deployed faster than ever!"
+              Their embedded solutions for our IoT devices were incredibly efficient and scalable. We deployed faster than ever!
             </p>
             <h4 className="text-sm font-semibold text-indigo-600">— Sarah M., IoT Product Manager</h4>
           </div>
@@ -35,7 +35,7 @@ export default function Testimonials() {
           {/* Testimonial 3 */}
           <div className="bg-gray-50 p-6 rounded-xl shadow-md">
             <p className="text-gray-700 italic mb-4">
-              "Working with EmbedNexus felt like having an in-house expert team. Their hardware knowledge is top-notch."
+              Working with EmbedNexus felt like having an in-house expert team. Their hardware knowledge is top-notch.
             </p>
             <h4 className="text-sm font-semibold text-indigo-600">— Bilal H., Tech Startup Founder</h4>
           </div>
