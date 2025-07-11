@@ -1,5 +1,6 @@
-import Navbar from "@/components/Navbaravbar";
+import Navbar from "@/components/Navbar";
 import Footer from "@/components/footer";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,14 +13,15 @@ export default function Home() {
         <p className="text-lg md:text-xl text-gray-600 max-w-2xl text-center mb-6">
           From hotel transparency to smart hardware and AI systems — we bring cutting-edge tech to your doorstep.
         </p>
-        <a href="/services">
+
+        {/* ✅ Replaced <a> with <Link> */}
+        <Link href="/services">
           <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition">
             Explore Services
           </button>
-        </a>
-        
+        </Link>
+
         <Footer />
-       
       </main>
     </>
   );
