@@ -1,19 +1,21 @@
-import Navbar from '../components/Navbar';
+import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="flex flex-col items-center justify-center min-h-screen bg-white px-4">
-        <h1 className="text-4xl font-bold text-red-500 text-center mb-6">
+      <main className="min-h-screen bg-[#f6f9fc] flex flex-col items-center justify-center px-4 text-center">
+        <h1 className="text-4xl md:text-5xl font-bold text-indigo-600 mb-4">
           Welcome to EmbedNexus
         </h1>
-
-        <img
-          src="/EN-Header.png"  // replace with your file name if different
-          alt="EmbedNexus Header"
-          className="w-full max-w-4xl rounded-xl shadow-md"
-        />
+        <p className="text-lg text-gray-600 max-w-xl mb-6">
+          We bring transparency, intelligence, and innovation to hotel systems and embedded IoT solutions.
+        </p>
+        <a href="/about">
+          <button className="bg-indigo-600 text-white px-6 py-3 rounded-md text-sm hover:bg-indigo-700 transition">
+            Learn More
+          </button>
+        </a>
       </main>
     </>
   );
