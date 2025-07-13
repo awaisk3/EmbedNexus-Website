@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function Home() {
@@ -14,15 +14,13 @@ export default function Home() {
           From hotel transparency to smart hardware and AI systems — we bring cutting-edge tech to your doorstep.
         </p>
 
-        {/* ✅ Replaced <a> with <Link> */}
         <Link href="/services">
           <button className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-3 rounded-full text-sm font-medium shadow-lg transition">
             Explore Services
           </button>
         </Link>
-
-        <Footer />
       </main>
+      <Footer />
     </>
   );
 }
