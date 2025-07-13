@@ -1,5 +1,5 @@
 import Navbar from "@/components/Navbar";
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 import { Mail, Phone } from "lucide-react"; // Lucide icons
 
