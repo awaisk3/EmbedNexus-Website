@@ -6,6 +6,8 @@ export default function Home() {
   return (
     <>
       <Navbar />
+
+      {/* Main content section */}
       <main className="min-h-screen flex flex-col items-center justify-center px-6 bg-white">
         <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 text-center leading-tight mb-4">
           Powering Intelligent IoT & Embedded Solutions
@@ -20,6 +22,8 @@ export default function Home() {
           </button>
         </Link>
       </main>
+
+      {/* Move Footer OUTSIDE of main */}
       <Footer />
     </>
   );
