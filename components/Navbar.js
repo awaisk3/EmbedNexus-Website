@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 
 export default function Navbar() {
